@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chính sách quyền riêng tư - Hoang Threads Auto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body style="max-width: 800px; margin: 40px auto; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6;">
+  <h1>Chính sách quyền riêng tư</h1>
+  <p><strong>Hoang Threads Auto</strong> là một công cụ tự động hoá sử dụng n8n để lấy dữ liệu từ Google Sheets và đăng nội dung lên các nền tảng mạng xã hội (bao gồm nhưng không giới hạn ở Threads, Facebook, Instagram, ...).</p>
+
+  <h2>1. Thông tin chúng tôi thu thập</h2>
+  <p>Công cụ chỉ xử lý các loại dữ liệu sau:</p>
+  <ul>
+    <li>Nội dung bạn lưu trong Google Sheets (text, link ảnh, link video, ghi chú, cấu hình bài đăng,...).</li>
+    <li>Các token truy cập (access token) do bạn cung cấp để kết nối với trang hoặc tài khoản mạng xã hội.</li>
+    <li>Một số log kỹ thuật phục vụ debug (ví dụ: ID thực thi, trạng thái bài đăng,...).</li>
+  </ul>
+  <p>Chúng tôi <strong>không</strong> thu thập thêm dữ liệu nào ngoài những gì bạn tự cấu hình và cung cấp trong hệ thống (n8n, Google Sheets hoặc các dịch vụ bên thứ ba bạn kết nối).</p>
+
+  <h2>2. Mục đích sử dụng dữ liệu</h2>
+  <p>Dữ liệu được sử dụng với các mục đích:</p>
+  <ul>
+    <li>Tự động tạo và đăng bài viết lên các trang / tài khoản mạng xã hội mà bạn đã kết nối.</li>
+    <li>Quản lý hàng chờ nội dung, trạng thái bài đăng (Chờ đăng, Queue, Thành công, v.v.).</li>
+    <li>Hỗ trợ chỉnh sửa, tối ưu nội dung bằng AI (nếu bạn bật tính năng AI Agent).</li>
+  </ul>
+  <p>Dữ liệu chỉ được sử dụng trong phạm vi công cụ và workflow do chính bạn cấu hình.</p>
+
+  <h2>3. Chia sẻ dữ liệu</h2>
+  <p>Chúng tôi <strong>không bán</strong> hoặc cho thuê dữ liệu người dùng.</p>
+  <p>Dữ liệu chỉ có thể được chia sẻ với các bên thứ ba trong trường hợp:</p>
+  <ul>
+    <li>Các nền tảng bạn chủ động kết nối (ví dụ: Meta/Facebook/Instagram/Threads, Google,…).</li>
+    <li>Các dịch vụ cần thiết cho việc vận hành workflow (ví dụ: n8n, máy chủ/VPS, dịch vụ cloud do bạn sử dụng).</li>
+  </ul>
+
+  <h2>4. Lưu trữ và bảo mật dữ liệu</h2>
+  <p>Dữ liệu của bạn được lưu trữ trên các dịch vụ mà <strong>bạn</strong> cấu hình (ví dụ: Google Sheets, n8n self-host, VPS, cloud,…).</p>
+  <p>Chúng tôi khuyến khích bạn:</p>
+  <ul>
+    <li>Không chia sẻ access token hoặc thông tin đăng nhập cho người khác.</li>
+    <li>Sử dụng mật khẩu mạnh, bật xác thực hai yếu tố (2FA) với các dịch vụ quan trọng.</li>
+    <li>Giới hạn quyền truy cập tài khoản developer, n8n, server, Google Sheets,…</li>
+  </ul>
+
+  <h2>5. Quyền của người dùng</h2>
+  <p>Vì toàn bộ hệ thống do bạn tự quản lý, bạn có toàn quyền:</p>
+  <ul>
+    <li>Xoá dữ liệu trong Google Sheets hoặc các kho lưu trữ khác.</li>
+    <li>Thu hồi quyền truy cập ứng dụng trên Facebook/Meta, Google,…</li>
+    <li>Tắt hoặc xoá workflow n8n bất kỳ lúc nào.</li>
+  </ul>
+
+  <h2>6. Dịch vụ bên thứ ba</h2>
+  <p>Công cụ có thể sử dụng hoặc kết nối với các dịch vụ bên thứ ba như:</p>
+  <ul>
+    <li>Meta Platforms, Inc. (Facebook, Instagram, Threads,...)</li>
+    <li>Google LLC (Google Sheets, Google Drive,...)</li>
+    <li>Các nhà cung cấp hạ tầng máy chủ / cloud mà bạn lựa chọn.</li>
+  </ul>
+  <p>Mỗi bên thứ ba sẽ có chính sách riêng tư riêng, bạn nên đọc thêm trên trang chính thức của họ.</p>
+
+  <h2>7. Thay đổi chính sách</h2>
+  <p>Chính sách quyền riêng tư này có thể được cập nhật theo thời gian. Phiên bản mới nhất sẽ được công bố tại trang này.</p>
+
+  <h2>8. Liên hệ</h2>
+  <p>Nếu bạn có bất kỳ câu hỏi nào liên quan đến chính sách quyền riêng tư, vui lòng liên hệ:</p>
+  <ul>
+    <li>Email: <em>ngominhhoang05112005@gmail.com</em></li>
+  </ul>
+  <p>Vui lòng thay thế địa chỉ email bằng email liên hệ thực tế của bạn.</p>
+</body>
+</html>
